@@ -1,12 +1,53 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#map { width: 100%; }
+#map h2 {
+  justify: left;
+}
+#map-container { height: 400px; width: 100%; }
 
-#map-container { height: 180px; }
+/* Carousel Images */
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: 500px;
+}
 
+#carousel-example-generic {
+  width: 55%;
+}
 
+/* "statistics" section */
+#stats dl {
+  width: 100%;  
+}
 
+#stats dt {
+  float: left;
+  width: 50%;
+  padding: 4px;
+  background-color:lightblue;
+  text-align: right;
+}
 
+#stats dd {
+  float: left;
+  width: 50%;
+  padding: 4px;
+  padding-right: 50px;
+  background-color: lightblue;
+}
+
+/* Navbar "affix" */
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 16;
+}
 
 
 
